@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Trebuchet MS';
+	background-image: url('school.png');
+}
+
+div#lewa {
+	float: left;
+	display: table-cell;
+	background-color: #DDD;
+	min-height: 50px;
+	width: 50%;
+}
+div#element{
+	
+	background-color: #DDD;
+}
+div#prawa {
+	float: right;
+	display: table-cell;
+	background-color: #DDD;
+	min-height: 15px;
+	width: 40%;
+}
+
+input#textBox {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 150px;
+	height: 20px;
+}
+
+input#button {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 80px;
+	height: 30px;
+	background-color: #3366cc;
+}
+
+table, td {
+	border: 4px solid black;
+}
+
+input#registerButton {
+	background-color: #4CAF50;
+}
+
+b#title {
+	font: 30pt Impact;
+}
+
+div#rejestracja {
+	display: table-cell;
+	background-color: #3366cc;
+}
+
+div#error {
+	position: relative;
+	left: 3cm;
+	top: 1.7cm;
+	color: red;
+}
+
+div#menu {
+	background-color: #DDD;
+	font: 15pt Impact;
+}
